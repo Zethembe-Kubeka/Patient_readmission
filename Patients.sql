@@ -5,6 +5,12 @@ FROM patients.readmission.dataset;
 SELECT distinct `Admission Type`
 FROM patients.readmission.dataset;
 
+SELECT `Age`,
+        `Gender`,
+        `Readmission`,
+        `Admission Type`
+FROM patients.readmission.dataset;
+
 SELECT `Patient ID`,
         `Age`,
         `Gender`,
